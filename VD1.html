@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vi du Text Field 2</title>
+</head>
+<body>
+	<form action="/action_page.php">
+		<fieldset>
+			<legend> Thông tin cá nhân:</legend>
+		<table>
+			<tr>
+				<td>Ho ten:</td>
+				<td>
+					<input type="text" name="Hoten">
+				</td>
+			</tr>
+			<tr>
+				<td>Gioi tinh:</td>
+				<td>
+					<input type="radio" name="sex" value="male"> male 
+					<input type="radio" name="sex" value="female"> female 
+					<input type="radio" name="sex" value="khac"> Khac
+ 				</td>
+			<tr>
+				<td valign="top">So thich:</td>
+				<td>
+					<input type="checkbox" name="Nghenhac" value="yea"> Nghe nhac
+					<br>
+					<input type="checkbox" name="Xemphim" value="yea"> Xem phim
+					<br>
+					<input type="checkbox" name="Doctieuthuyet" value="yea"> Doc tieu thuyet
+					<br>
+					<input type="checkbox" name="Choigame" value="yea"> Choi game 
+				</td>
+				<tr>
+				<td>Maso:</td>
+				<td>
+					<input type="text" name="Maso">
+				</td>
+			</tr>
+			<tr>
+				<td>Lop:</td>
+				<td>
+					<input type="text" name="Lop">
+				</td>
+			</tr>
+			<tr>
+				<td>Bomon:</td>
+				<td>
+					<select name="Bo mon">
+						<option value="BM CN hoa hoc"> Bo Mon CN hoa hoc 
+						</option>
+						<option value="BM Tu dong hoa"> Bo Mon Tu dong hoa
+						</option>
+						<option value="BM QL Cong nghiep"> Bo Mon Quan ly cong nghiep 
+						</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Khoa:</td>
+				<td>
+					<input type="text" name="Khoa">
+				</td>
+			</tr>
+		</table>
+		<p><i><b>Thông tin khác</b></i></p>
+		<textarea name="thong tin" rows="10" cols="30">
+			Quốc Chiều đzai quá 
+		</textarea>
+		<br>
+		<br>
+		<form action="/action_page.php" method="post">
+			<input type="text" name="fname" required>
+			<input type="submit" value="submit">
+			<imput type="reset" value="Reset">
+		
+ </form>
+</body>
+</html>
